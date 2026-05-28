@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+    margin: 30px;
+}
+
+fieldset{
+    width: 500px;
+    padding: 20px;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+
+textarea{
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
