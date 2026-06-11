@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#121212;
+    padding:20px;
+    font-family:Arial,sans-serif;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+#container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid white;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin:10px 0;
+}
